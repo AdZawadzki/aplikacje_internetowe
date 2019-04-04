@@ -1,34 +1,7 @@
-
-#pudelko
-{
-    height:1000px ;
-    width: 1000px;
-    background-color: coral;
+.container{
+    display: grid | inline-grid;
+    background-color:lightgrey;
     display: flex;
-    margin: 0px auto;
-    justify-content: space-evenly;
-    align-content: center;
-
-}
-#pudelko>div
-{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    transition: all .2s linear;
-}   
-#pudelko>div:nth-child(2)
-{
-    background-color: cornsilk;
-    height: 75px;
-}
-#pudelko>div:nth-child(3)
-{
-    background-color:blue; 
-    height: 75px;
-}
-#pudelko> div:hover
-{
-    background-color: brown;
-    flex-grow: 1.5;
+    grid-template-columns: 40px;
+    grid-template-rows: 40px;
 }
